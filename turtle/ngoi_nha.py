@@ -1,7 +1,7 @@
 import turtle
 
 
-
+turtle.bgcolor("#87ceeb");
 turtle.penup()
 turtle.goto(-350,-350)
 turtle.pendown()
