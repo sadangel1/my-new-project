@@ -1,5 +1,6 @@
 import turtle
  
+bg_leaf = "#90f08f"
 
 turtle.bgcolor("#87ceeb");
 turtle.penup()
@@ -106,7 +107,7 @@ turtle.end_fill()
 turtle.penup()
 turtle.goto(125,-225)
 turtle.pendown()
-turtle.fillcolor("#90f08f")
+turtle.fillcolor(bg_leaf)
 turtle.begin_fill()
 turtle.goto(225,-150)
 turtle.goto(325,-225)
@@ -116,7 +117,7 @@ turtle.end_fill()
 turtle.penup()
 turtle.goto(145,-175)
 turtle.pendown()
-turtle.fillcolor("#90f08f")
+turtle.fillcolor(bg_leaf)
 turtle.begin_fill()
 turtle.goto(225,-100)
 turtle.goto(310,-175)
@@ -126,7 +127,7 @@ turtle.end_fill()
 turtle.penup()
 turtle.goto(150,-125)
 turtle.pendown()
-turtle.fillcolor("#90f08f")
+turtle.fillcolor(bg_leaf)
 turtle.begin_fill()
 turtle.goto(225,-50)
 turtle.goto(300,-125)
