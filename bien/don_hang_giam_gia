@@ -7,8 +7,8 @@ elif  float(soTien) <=0 :
      print("Số tiền quá nhỏ")
 else:
     soTien = float(soTien)
-    if soTien > 150 : soGiam = 50
-    elif soTien > 100 : soGiam = 25
+    if soTien >= 150 : soGiam = 50
+    elif soTien >= 100 : soGiam = 25
     elif soTien > 75 : soGiam = 15
     print("Tổng tiền {t} - {g} = {tt}".format(t=soTien,g=soGiam, tt=soTien - soGiam ))
     
