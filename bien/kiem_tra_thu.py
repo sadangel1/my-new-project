@@ -1,6 +1,8 @@
 num = input("Nhap so 1 - 7:")
-if num.isnumeric() == False or int(num) > 7 or int(num) < 0:
+if num.isnumeric() == False :
     print("Số không hợp lệ")
+elif  int(num) > 7 or int(num) < 0:
+     print("Số không hợp lệ")    
 else:
     num = int(num)
     if num == 1: print("Chủ nhật")
