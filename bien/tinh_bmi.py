@@ -1,11 +1,18 @@
 chieuCao = input("Nhập chiều cao (m): ")
 canNang = input("Nhập cân nặng (kg): ")
 
-if chieuCao.isnumeric() == False :
+def is_float_digit(n: str) -> bool:
+     try:
+         float(n)
+         return True
+     except ValueError:
+         return False
+
+if is_float_digit(chieuCao) == False :
     print("Chiều cao không hợp lệ")
-elif canNang.isnumeric() == False :
+elif is_float_digit(canNang) == False :
     print("Cân nặng không hợp lệ")
-if float(chieuCao) == 0 or float(canNang) == 0:
+elif float(chieuCao) == 0 or float(canNang) == 0:
     print("Không hợp lệ")    
 else:
     bmi = float(canNang) / (float(chieuCao) * float(chieuCao))
