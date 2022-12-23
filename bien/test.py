@@ -1,25 +1,9 @@
-i = 0
+for num in range(10, 14):
 
-j = 20
+   for i in range(2, num):
 
-while True:
+       if num%i == 1:
 
-    j -= 2
+          print(num, i)
 
-    i += 3
-
-    if i >= j:
-
-        break
-
-    if j > 15:
-
-        continue
-
-    print(i, j, sep='', end='')
-
-else:
-
-    print(j, end='')
-
-print('a')
+          break
