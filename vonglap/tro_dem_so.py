@@ -24,6 +24,11 @@ while True:
     if so_diem > 21:
         nguoiThua = nguoiChoiHienTai
         print("Kết thúc {a}. Người thua là {b}".format(a=so_diem, b =myDict[nguoiChoiHienTai] ))
-        break
-    nguoiChoiHienTai = 1 if nguoiChoiHienTai ==0 else 0    
+        if input("Bạn muốn chơi lại không (Y/N)?") == "Y":
+            nguoiChoiHienTai = random.randint(0,1)    
+            so_diem = 0
+        else:
+            break
+    else:
+        nguoiChoiHienTai = 1 if nguoiChoiHienTai ==0 else 0    
     
