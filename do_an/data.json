@@ -1,0 +1,1 @@
+{"users": [{"username": "toannguyen", "name": "Nguyễn Văn Toàn", "password": "123456", "email": "toan@gmail.com", "tel": "078676377", "address": "11b dang van ngu", "image": "", "role": "Admin"}, {"username": "nguyendieu", "name": "Nguyễn Diệu", "password": "123456788", "email": "dieu@gmail.com", "tel": "102345678", "address": "100 Tan Da", "image": "", "role": "User"}]}
